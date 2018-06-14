@@ -1,0 +1,39 @@
+PODS:
+  - MJRefresh (3.1.15.3)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - MJRefresh
+  - Texture
+
+SPEC CHECKSUMS:
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+
+PODFILE CHECKSUM: f23c85ea50fa2267d42b942c1b001d69a8570db3
+
+COCOAPODS: 1.4.0
