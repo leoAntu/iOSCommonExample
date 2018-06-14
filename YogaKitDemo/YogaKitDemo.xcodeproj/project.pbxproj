@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05319A698ED28127F2630F0 /* Pods_YogaKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F916278C5BBDB16678D05F3F /* Pods_YogaKitDemo.framework */; };
+		F7FEC40620C50D19004A4CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC40520C50D19004A4CAD /* AppDelegate.m */; };
+		F7FEC40920C50D19004A4CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC40820C50D19004A4CAD /* ViewController.m */; };
+		F7FEC40C20C50D19004A4CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FEC40A20C50D19004A4CAD /* Main.storyboard */; };
+		F7FEC40E20C50D1A004A4CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FEC40D20C50D1A004A4CAD /* Assets.xcassets */; };
+		F7FEC41120C50D1A004A4CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FEC40F20C50D1A004A4CAD /* LaunchScreen.storyboard */; };
+		F7FEC41420C50D1A004A4CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC41320C50D1A004A4CAD /* main.m */; };
+		F7FEC41D20C51496004A4CAD /* CenterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC41C20C51496004A4CAD /* CenterLayout.m */; };
+		F7FEC42020C51930004A4CAD /* NestLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC41F20C51930004A4CAD /* NestLayout.m */; };
+		F7FEC42320C51DD9004A4CAD /* EqualWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC42220C51DD9004A4CAD /* EqualWidth.m */; };
+		F7FEC42620C521CB004A4CAD /* spaceBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC42520C521CB004A4CAD /* spaceBetween.m */; };
+		F7FEC42920C5240F004A4CAD /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC42820C5240F004A4CAD /* ScrollView.m */; };
+		F7FEC42C20C52AE1004A4CAD /* AnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC42B20C52AE1004A4CAD /* AnimatedView.m */; };
+		F7FEC43020C52E21004A4CAD /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC42F20C52E21004A4CAD /* ListViewController.m */; };
+		F7FEC43320C52F06004A4CAD /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC43220C52F06004A4CAD /* ListCell.m */; };
+		F7FEC43520C52F11004A4CAD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F7FEC43420C52F11004A4CAD /* data.json */; };
+		F7FEC43820C52F21004A4CAD /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FEC43720C52F21004A4CAD /* ListModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CBB4F55506DB6BC9BE16C82 /* Pods-YogaKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YogaKitDemo/Pods-YogaKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0FB1014DE3FFB55AD0FF0B48 /* Pods-YogaKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaKitDemo/Pods-YogaKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F7FEC40120C50D19004A4CAD /* YogaKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FEC40420C50D19004A4CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7FEC40520C50D19004A4CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7FEC40720C50D19004A4CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7FEC40820C50D19004A4CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7FEC40B20C50D19004A4CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7FEC40D20C50D1A004A4CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7FEC41020C50D1A004A4CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7FEC41220C50D1A004A4CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7FEC41320C50D1A004A4CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7FEC41B20C51496004A4CAD /* CenterLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterLayout.h; sourceTree = "<group>"; };
+		F7FEC41C20C51496004A4CAD /* CenterLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterLayout.m; sourceTree = "<group>"; };
+		F7FEC41E20C51930004A4CAD /* NestLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestLayout.h; sourceTree = "<group>"; };
+		F7FEC41F20C51930004A4CAD /* NestLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestLayout.m; sourceTree = "<group>"; };
+		F7FEC42120C51DD9004A4CAD /* EqualWidth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EqualWidth.h; sourceTree = "<group>"; };
+		F7FEC42220C51DD9004A4CAD /* EqualWidth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EqualWidth.m; sourceTree = "<group>"; };
+		F7FEC42420C521CB004A4CAD /* spaceBetween.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spaceBetween.h; sourceTree = "<group>"; };
+		F7FEC42520C521CB004A4CAD /* spaceBetween.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaceBetween.m; sourceTree = "<group>"; };
+		F7FEC42720C5240F004A4CAD /* ScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		F7FEC42820C5240F004A4CAD /* ScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		F7FEC42A20C52AE1004A4CAD /* AnimatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedView.h; sourceTree = "<group>"; };
+		F7FEC42B20C52AE1004A4CAD /* AnimatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedView.m; sourceTree = "<group>"; };
+		F7FEC42E20C52E21004A4CAD /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		F7FEC42F20C52E21004A4CAD /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		F7FEC43120C52F06004A4CAD /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		F7FEC43220C52F06004A4CAD /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		F7FEC43420C52F11004A4CAD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F7FEC43620C52F21004A4CAD /* ListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		F7FEC43720C52F21004A4CAD /* ListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		F916278C5BBDB16678D05F3F /* Pods_YogaKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7FEC3FE20C50D19004A4CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05319A698ED28127F2630F0 /* Pods_YogaKitDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC275AFB4DF6837E34A7725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F916278C5BBDB16678D05F3F /* Pods_YogaKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEE390A5D789817078E53A75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB4F55506DB6BC9BE16C82 /* Pods-YogaKitDemo.debug.xcconfig */,
+				0FB1014DE3FFB55AD0FF0B48 /* Pods-YogaKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7FEC3F820C50D19004A4CAD = {
+			isa = PBXGroup;
+			children = (
+				F7FEC40320C50D19004A4CAD /* YogaKitDemo */,
+				F7FEC40220C50D19004A4CAD /* Products */,
+				DEE390A5D789817078E53A75 /* Pods */,
+				2CC275AFB4DF6837E34A7725 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7FEC40220C50D19004A4CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEC40120C50D19004A4CAD /* YogaKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7FEC40320C50D19004A4CAD /* YogaKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEC41A20C51032004A4CAD /* samples */,
+				F7FEC40420C50D19004A4CAD /* AppDelegate.h */,
+				F7FEC40520C50D19004A4CAD /* AppDelegate.m */,
+				F7FEC40720C50D19004A4CAD /* ViewController.h */,
+				F7FEC40820C50D19004A4CAD /* ViewController.m */,
+				F7FEC40A20C50D19004A4CAD /* Main.storyboard */,
+				F7FEC40D20C50D1A004A4CAD /* Assets.xcassets */,
+				F7FEC40F20C50D1A004A4CAD /* LaunchScreen.storyboard */,
+				F7FEC41220C50D1A004A4CAD /* Info.plist */,
+				F7FEC41320C50D1A004A4CAD /* main.m */,
+			);
+			path = YogaKitDemo;
+			sourceTree = "<group>";
+		};
+		F7FEC41A20C51032004A4CAD /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEC42D20C52DFC004A4CAD /* listTable */,
+				F7FEC41B20C51496004A4CAD /* CenterLayout.h */,
+				F7FEC41C20C51496004A4CAD /* CenterLayout.m */,
+				F7FEC41E20C51930004A4CAD /* NestLayout.h */,
+				F7FEC41F20C51930004A4CAD /* NestLayout.m */,
+				F7FEC42120C51DD9004A4CAD /* EqualWidth.h */,
+				F7FEC42220C51DD9004A4CAD /* EqualWidth.m */,
+				F7FEC42420C521CB004A4CAD /* spaceBetween.h */,
+				F7FEC42520C521CB004A4CAD /* spaceBetween.m */,
+				F7FEC42720C5240F004A4CAD /* ScrollView.h */,
+				F7FEC42820C5240F004A4CAD /* ScrollView.m */,
+				F7FEC42A20C52AE1004A4CAD /* AnimatedView.h */,
+				F7FEC42B20C52AE1004A4CAD /* AnimatedView.m */,
+			);
+			path = samples;
+			sourceTree = "<group>";
+		};
+		F7FEC42D20C52DFC004A4CAD /* listTable */ = {
+			isa = PBXGroup;
+			children = (
+				F7FEC42E20C52E21004A4CAD /* ListViewController.h */,
+				F7FEC42F20C52E21004A4CAD /* ListViewController.m */,
+				F7FEC43120C52F06004A4CAD /* ListCell.h */,
+				F7FEC43220C52F06004A4CAD /* ListCell.m */,
+				F7FEC43620C52F21004A4CAD /* ListModel.h */,
+				F7FEC43720C52F21004A4CAD /* ListModel.m */,
+				F7FEC43420C52F11004A4CAD /* data.json */,
+			);
+			path = listTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7FEC40020C50D19004A4CAD /* YogaKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FEC41720C50D1A004A4CAD /* Build configuration list for PBXNativeTarget "YogaKitDemo" */;
+			buildPhases = (
+				73A8FB4027CBB77EFB312C73 /* [CP] Check Pods Manifest.lock */,
+				F7FEC3FD20C50D19004A4CAD /* Sources */,
+				F7FEC3FE20C50D19004A4CAD /* Frameworks */,
+				F7FEC3FF20C50D19004A4CAD /* Resources */,
+				46E0614C44E8D27E43037385 /* [CP] Embed Pods Frameworks */,
+				3552E47642E287953492BC26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogaKitDemo;
+			productName = YogaKitDemo;
+			productReference = F7FEC40120C50D19004A4CAD /* YogaKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7FEC3F920C50D19004A4CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = leo;
+				TargetAttributes = {
+					F7FEC40020C50D19004A4CAD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F7FEC3FC20C50D19004A4CAD /* Build configuration list for PBXProject "YogaKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7FEC3F820C50D19004A4CAD;
+			productRefGroup = F7FEC40220C50D19004A4CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7FEC40020C50D19004A4CAD /* YogaKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7FEC3FF20C50D19004A4CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FEC41120C50D1A004A4CAD /* LaunchScreen.storyboard in Resources */,
+				F7FEC40E20C50D1A004A4CAD /* Assets.xcassets in Resources */,
+				F7FEC40C20C50D19004A4CAD /* Main.storyboard in Resources */,
+				F7FEC43520C52F11004A4CAD /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3552E47642E287953492BC26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaKitDemo/Pods-YogaKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E0614C44E8D27E43037385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YogaKitDemo/Pods-YogaKitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaKitDemo/Pods-YogaKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A8FB4027CBB77EFB312C73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YogaKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7FEC3FD20C50D19004A4CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FEC43020C52E21004A4CAD /* ListViewController.m in Sources */,
+				F7FEC41D20C51496004A4CAD /* CenterLayout.m in Sources */,
+				F7FEC42920C5240F004A4CAD /* ScrollView.m in Sources */,
+				F7FEC43820C52F21004A4CAD /* ListModel.m in Sources */,
+				F7FEC40920C50D19004A4CAD /* ViewController.m in Sources */,
+				F7FEC41420C50D1A004A4CAD /* main.m in Sources */,
+				F7FEC43320C52F06004A4CAD /* ListCell.m in Sources */,
+				F7FEC40620C50D19004A4CAD /* AppDelegate.m in Sources */,
+				F7FEC42020C51930004A4CAD /* NestLayout.m in Sources */,
+				F7FEC42C20C52AE1004A4CAD /* AnimatedView.m in Sources */,
+				F7FEC42620C521CB004A4CAD /* spaceBetween.m in Sources */,
+				F7FEC42320C51DD9004A4CAD /* EqualWidth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7FEC40A20C50D19004A4CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7FEC40B20C50D19004A4CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7FEC40F20C50D1A004A4CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7FEC41020C50D1A004A4CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7FEC41520C50D1A004A4CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7FEC41620C50D1A004A4CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7FEC41820C50D1A004A4CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBB4F55506DB6BC9BE16C82 /* Pods-YogaKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YogaKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.YogaKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7FEC41920C50D1A004A4CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB1014DE3FFB55AD0FF0B48 /* Pods-YogaKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YogaKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.YogaKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7FEC3FC20C50D19004A4CAD /* Build configuration list for PBXProject "YogaKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FEC41520C50D1A004A4CAD /* Debug */,
+				F7FEC41620C50D1A004A4CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7FEC41720C50D1A004A4CAD /* Build configuration list for PBXNativeTarget "YogaKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FEC41820C50D1A004A4CAD /* Debug */,
+				F7FEC41920C50D1A004A4CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7FEC3F920C50D19004A4CAD /* Project object */;
+}
