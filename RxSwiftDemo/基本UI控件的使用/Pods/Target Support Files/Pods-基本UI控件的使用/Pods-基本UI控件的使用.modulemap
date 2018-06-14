@@ -1,0 +1,6 @@
+framework module Pods___UI_____ {
+  umbrella header "Pods-基本UI控件的使用-umbrella.h"
+
+  export *
+  module * { export * }
+}
