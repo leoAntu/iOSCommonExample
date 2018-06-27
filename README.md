@@ -1,9 +1,9 @@
 # RAC+MVVM在实际项目中用法
 * RACSignal
-* RACSignal
-* RACSignal
-* RACSignal
-* RACSignal
+* RACSubject
+* RACSequence
+* RACMulticastConnection
+* RACCommand
 * RAC常用宏
 * RAC-bind
 * RAC-过滤操作集合
@@ -51,4 +51,6 @@ Texture是对整个UIKit的封装，理论上可以实现UIKit实现的界面，
 
 
 # iOS开发中常见的转场动画使用Demo
+
+
 
