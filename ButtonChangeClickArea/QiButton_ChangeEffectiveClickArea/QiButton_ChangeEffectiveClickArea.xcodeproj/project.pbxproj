@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED43BBF211F1E3300571398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED43BBE211F1E3300571398 /* AppDelegate.m */; };
+		EED43BC7211F1E3400571398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED43BC6211F1E3400571398 /* Assets.xcassets */; };
+		EED43BCD211F1E3400571398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED43BCC211F1E3400571398 /* main.m */; };
+		EED43BD5211F1E6E00571398 /* QiButton_ChangeEffectiveClickAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED43BD4211F1E6E00571398 /* QiButton_ChangeEffectiveClickAreaViewController.m */; };
+		EED43BD8211F212300571398 /* QiChangeClickEffectiveAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EED43BD7211F212300571398 /* QiChangeClickEffectiveAreaButton.m */; };
+		EED43BDB211F222D00571398 /* QiTouchPenetrateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EED43BDA211F222D00571398 /* QiTouchPenetrateView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EED43BBA211F1E3300571398 /* QiButton_ChangeEffectiveClickArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiButton_ChangeEffectiveClickArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED43BBD211F1E3300571398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EED43BBE211F1E3300571398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EED43BC6211F1E3400571398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED43BCB211F1E3400571398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED43BCC211F1E3400571398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EED43BD3211F1E6E00571398 /* QiButton_ChangeEffectiveClickAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiButton_ChangeEffectiveClickAreaViewController.h; sourceTree = "<group>"; };
+		EED43BD4211F1E6E00571398 /* QiButton_ChangeEffectiveClickAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiButton_ChangeEffectiveClickAreaViewController.m; sourceTree = "<group>"; };
+		EED43BD6211F212300571398 /* QiChangeClickEffectiveAreaButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiChangeClickEffectiveAreaButton.h; sourceTree = "<group>"; };
+		EED43BD7211F212300571398 /* QiChangeClickEffectiveAreaButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiChangeClickEffectiveAreaButton.m; sourceTree = "<group>"; };
+		EED43BD9211F222D00571398 /* QiTouchPenetrateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiTouchPenetrateView.h; sourceTree = "<group>"; };
+		EED43BDA211F222D00571398 /* QiTouchPenetrateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiTouchPenetrateView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED43BB7211F1E3300571398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED43BB1211F1E3300571398 = {
+			isa = PBXGroup;
+			children = (
+				EED43BBC211F1E3300571398 /* QiButton_ChangeEffectiveClickArea */,
+				EED43BBB211F1E3300571398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED43BBB211F1E3300571398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED43BBA211F1E3300571398 /* QiButton_ChangeEffectiveClickArea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED43BBC211F1E3300571398 /* QiButton_ChangeEffectiveClickArea */ = {
+			isa = PBXGroup;
+			children = (
+				EED43BBD211F1E3300571398 /* AppDelegate.h */,
+				EED43BBE211F1E3300571398 /* AppDelegate.m */,
+				EED43BD3211F1E6E00571398 /* QiButton_ChangeEffectiveClickAreaViewController.h */,
+				EED43BD4211F1E6E00571398 /* QiButton_ChangeEffectiveClickAreaViewController.m */,
+				EED43BD6211F212300571398 /* QiChangeClickEffectiveAreaButton.h */,
+				EED43BD7211F212300571398 /* QiChangeClickEffectiveAreaButton.m */,
+				EED43BD9211F222D00571398 /* QiTouchPenetrateView.h */,
+				EED43BDA211F222D00571398 /* QiTouchPenetrateView.m */,
+				EED43BC6211F1E3400571398 /* Assets.xcassets */,
+				EED43BCB211F1E3400571398 /* Info.plist */,
+				EED43BCC211F1E3400571398 /* main.m */,
+			);
+			path = QiButton_ChangeEffectiveClickArea;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED43BB9211F1E3300571398 /* QiButton_ChangeEffectiveClickArea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED43BD0211F1E3400571398 /* Build configuration list for PBXNativeTarget "QiButton_ChangeEffectiveClickArea" */;
+			buildPhases = (
+				EED43BB6211F1E3300571398 /* Sources */,
+				EED43BB7211F1E3300571398 /* Frameworks */,
+				EED43BB8211F1E3300571398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiButton_ChangeEffectiveClickArea;
+			productName = QiButton_ChangeEffectiveClickArea;
+			productReference = EED43BBA211F1E3300571398 /* QiButton_ChangeEffectiveClickArea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED43BB2211F1E3300571398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = qishare;
+				TargetAttributes = {
+					EED43BB9211F1E3300571398 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EED43BB5211F1E3300571398 /* Build configuration list for PBXProject "QiButton_ChangeEffectiveClickArea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED43BB1211F1E3300571398;
+			productRefGroup = EED43BBB211F1E3300571398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED43BB9211F1E3300571398 /* QiButton_ChangeEffectiveClickArea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED43BB8211F1E3300571398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED43BC7211F1E3400571398 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED43BB6211F1E3300571398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED43BD5211F1E6E00571398 /* QiButton_ChangeEffectiveClickAreaViewController.m in Sources */,
+				EED43BD8211F212300571398 /* QiChangeClickEffectiveAreaButton.m in Sources */,
+				EED43BCD211F1E3400571398 /* main.m in Sources */,
+				EED43BDB211F222D00571398 /* QiTouchPenetrateView.m in Sources */,
+				EED43BBF211F1E3300571398 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EED43BCE211F1E3400571398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EED43BCF211F1E3400571398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED43BD1211F1E3400571398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiButton_ChangeEffectiveClickArea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.wyw.QiButton-ChangeEffectiveClickArea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED43BD2211F1E3400571398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiButton_ChangeEffectiveClickArea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.wyw.QiButton-ChangeEffectiveClickArea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED43BB5211F1E3300571398 /* Build configuration list for PBXProject "QiButton_ChangeEffectiveClickArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED43BCE211F1E3400571398 /* Debug */,
+				EED43BCF211F1E3400571398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED43BD0211F1E3400571398 /* Build configuration list for PBXNativeTarget "QiButton_ChangeEffectiveClickArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED43BD1211F1E3400571398 /* Debug */,
+				EED43BD2211F1E3400571398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED43BB2211F1E3300571398 /* Project object */;
+}

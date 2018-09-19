@@ -52,5 +52,12 @@ Texture是对整个UIKit的封装，理论上可以实现UIKit实现的界面，
 
 # iOS开发中常见的转场动画使用Demo
 
+# TextSlider-- 一个继承自UISlider，自带value text的slider
+
+# ButtonEventInterval --- 可以方便有效防止Button连续点击
+
+# ButtonChangeClickArea --- 改变Button的点击区域，在pointInside：withEvent方法中改变区域
+
+
 
 
